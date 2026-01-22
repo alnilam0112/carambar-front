@@ -1,4 +1,4 @@
-# Carambar Landing Page 
+# Carambar Landing Page 🍬
 
 Landing page interactive pour Carambar & Co.  
 Permet de générer et afficher des blagues aléatoires depuis l’API backend.
@@ -33,4 +33,4 @@ Permet de générer et afficher des blagues aléatoires depuis l’API backend.
 
 ---
 
-🍬
+
