@@ -1,0 +1,55 @@
+body {
+    font-family: monospace, sans-serif;
+    background: linear-gradient(135deg,
+            rgba(255, 94, 77, 0.6),
+            rgba(255, 182, 193, 0.5),
+            rgba(255, 223, 100, 0.4),
+            rgba(255, 140, 0, 0.5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.btn1 {
+    margin-top: 1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background: red;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.answer {
+    display: none;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background: rgb(196, 24, 24);
+}
+
+button:hover {
+    font-weight: 600;
+}
