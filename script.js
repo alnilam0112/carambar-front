@@ -32,6 +32,15 @@ showAnswerBtn.addEventListener("click", () => {
   showAnswer.style.display = "none";
   answer.textContent = currentAnswer;
   answer.style.display = "block";
+
+// Evenement "confettis"
+showAnswerBtn.addEventListener("click", () => {
+    confetti({
+        particleCount: 100,
+        spread: 90,
+        origin: { y: 0.6 }
+    });
+}, { once: true }); 
 });
 
 // Charger une blague dès que la page s'ouvre

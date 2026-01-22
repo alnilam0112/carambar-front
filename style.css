@@ -6,10 +6,20 @@ body {
             rgba(255, 223, 100, 0.4),
             rgba(255, 140, 0, 0.5));
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
+.logo {
+    margin-bottom: 20px; /* espace entre le logo et le container */
+}
+
+.logo img {
+    width: 400px;  
+}
+
 
 .container {
     background: white;
@@ -52,4 +62,46 @@ button {
 
 button:hover {
     font-weight: 600;
+}
+
+/* Écrans moyens (tablettes) */
+@media (max-width: 768px) {
+    .logo img {
+        width: 300px; 
+    }
+
+    .container {
+        width: 250px; 
+        padding: 1.5rem;
+    }
+
+    button {
+        font-size: 40px;
+    }
+
+    .btn1 {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+}
+
+/* Écrans petits (mobiles) */
+@media (max-width: 480px) {
+    .logo img {
+        width: 250px; 
+    }
+
+    .container {
+        width: 200px;
+        padding: 1rem;
+    }
+
+    button {
+        font-size: 35px;
+    }
+
+    .btn1 {
+        font-size: 15px;
+        padding: 6px 10px;
+    }
 }
